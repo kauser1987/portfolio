@@ -1,0 +1,129 @@
+@font-face {
+    font-family: page0;
+    src: url(./fonts/Chewy-Regular.ttf);
+}
+#page0{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(150, 34, 57);
+    /* position: relative; */
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav ul li{
+    list-style: none;
+    padding: 7px;
+    font-size: 2vw;
+    font-family: page0;
+    text-decoration: transparent;
+
+}
+#nav ul li a{
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: red;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: white;
+}
+#nav ul li:hover{
+    color:  red;
+}
+#nav #img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+#nav #img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+#nav #homparent{
+   position: relative;
+}
+#nav #homblock{
+    position: absolute;
+    height: 40vh;
+    width: 30vw;
+    background-color: rgba(130, 130, 120, 0.92);
+    display: none;
+    border-radius: 12px;
+    font-size: 3vw;
+   
+    
+}
+#nav #homparent:hover #homblock{
+    display: flex;
+    flex-direction: column;
+   padding-left: 20px;
+   justify-content: space-around;
+}
+#nav #homparent:hover #homblock span{
+    color: white;
+}
+#nav #homparent:hover #homblock span:hover{
+    color: black;
+}
+#gallery{
+    margin: 10vh;
+    height: 70vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 900;
+    }
+#cards{
+    height: 50vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    border-radius: 12px;
+    gap:20px;
+    border: 1px solid white;
+    /* transition: all ease-in 0.2s; */
+    /* box-shadow: 10px 10px 0px  rgba(8, 8, 8, 1); */
+    
+    
+}
+#cards:hover{
+    box-shadow: 10px 10px 1px 1px  rgba(8, 8, 8, 1);
+  
+}
+#cards img{
+    height: 25vh;
+    width: inherit;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+#cards span{
+    font-size: 2vw;
+    font-family: page0;
+}

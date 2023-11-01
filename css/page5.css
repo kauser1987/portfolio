@@ -1,0 +1,55 @@
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(66, 98, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page5 #insta{
+    height: 60vh;
+    width: 45vh;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+#page5 #insta #fullscreen{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: none;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+#page5 #insta #stories{
+    height: 15vh;
+    border-bottom: 1px solid rgb(212, 209, 209);
+    padding: 12PX 10px;
+    white-space: nowrap;
+    /* background-color: red; */
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#page5 #insta #stories::-webkit-scrollbar{
+    display: none;
+}
+
+
+#stories #story{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+#stories #story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}

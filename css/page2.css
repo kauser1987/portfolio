@@ -1,0 +1,43 @@
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height:80%;
+    width: 80%;
+    border: 1px solid rgb(228, 224, 224);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.title span{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-stretch: 250%;
+    font-weight: 900;
+}
+.imgholder{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    
+    
+   
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: translateY(100%);
+   }

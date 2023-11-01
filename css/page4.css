@@ -1,0 +1,58 @@
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(94, 136, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 35vh;
+    width: 50vw;
+    border-left: 2px solid red;
+    border-right: 2px solid blue;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+#rectangle :nth-child(1){
+    color: red;
+    font-size: larger;
+}
+#rectangle :nth-child(2){
+    color: blue;
+    font-size: larger;
+}
+#scate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#scate span{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+#scate #container{
+    height: 50px;
+    width: 80vw;
+    border: 2px;
+    display: flex;
+    align-items: center;
+    border: 1px solid greenyellow;
+    overflow: hidden;
+} 
+#scate #container #scater{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    
+}
