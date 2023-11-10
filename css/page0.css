@@ -24,7 +24,6 @@
     padding: 7px;
     font-size: 2vw;
     font-family: page0;
-    text-decoration: transparent;
 
 }
 #nav ul li a{
@@ -37,13 +36,13 @@
 #nav ul li a:hover{
     padding: 5px 10px;
     border-radius: 50px;
-    color: red;
+    color: rgb(150, 34, 57);
     border: 1px solid white;
     text-decoration: none;
     background-color: white;
 }
 #nav ul li:hover{
-    color:  red;
+    color: rgb(150, 34, 57);
 }
 #nav #img{
     height: 50px;
