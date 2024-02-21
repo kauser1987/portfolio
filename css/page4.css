@@ -16,8 +16,8 @@
     width: 50vw;
     border-left: 2px solid red;
     border-right: 2px solid blue;
-    border-top: 2px solid green;
-    border-bottom: 2px solid green;
+    border-top: 2px solid rgb(94, 136, 31);
+    border-bottom: 2px solid rgb(94, 136, 31);
 }
 #rectangle :nth-child(1){
     color: red;

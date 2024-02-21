@@ -1,4 +1,3 @@
-
 document.querySelectorAll(".elem").forEach((elem) => {
         var prevX = 0;
         var diffrot = 0;

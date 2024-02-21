@@ -8,7 +8,7 @@ const throttleFunction=(func, delay)=>{
         }
       }
     }
-    document.querySelector(".title").addEventListener("click", throttleFunction((dets)=>{
+    document.querySelector(".title").addEventListener("mousemove", throttleFunction((dets)=>{
         var div=document.createElement("div");
         div.classList.add("imgholder")
         div.style.left=dets.clientX+'px';

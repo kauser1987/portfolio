@@ -20,6 +20,7 @@
     justify-content: space-around;
 }
 #nav ul li{
+    opacity: 1;
     list-style: none;
     padding: 7px;
     font-size: 2vw;

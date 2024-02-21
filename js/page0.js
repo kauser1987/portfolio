@@ -25,6 +25,8 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
 // after everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 ScrollTrigger.refresh();
+
+
 function mousefollower(xScale,yScale) {
     var circle=document.querySelector("#minicircle");
     window.addEventListener("mousemove",(dets)=>{
@@ -60,4 +62,5 @@ gsap.from("#nav ul li",{
     duration:1,
     delay:3,
     stagger:0.2,
+    opacity:-2,
 })
