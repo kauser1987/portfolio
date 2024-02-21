@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/page3.css">
     <link rel="stylesheet" href="./css/page4.css">
     <link rel="stylesheet" href="./css/page5.css">
+    <link rel="stylesheet" href="./css/page6.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 </head>
 <body>
@@ -139,6 +140,25 @@
         <div id="page2">
             <div class="title">
                 <span>enter & click to explore</span>
+            </div>
+        </div>
+        <div id="page6">
+            <div id="contact-page">
+                <h2>contact us</h2>
+                <!-- <form action="" onsubmit="sendEmail(); reset(); return false;"> -->
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="8bff1ed7-c241-43b6-9a23-b13bece70a19">
+        
+                    <label for="">Full name:</label>
+                    <input type="text" placeholder="enter name" name="name" required id="">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="enter email" name="email" required id="">
+                    <label for="">Contact-No:</label>
+                    <input type="number" placeholder="contact no." name="contact" required id="">
+                    <label for="">Enter query:</label>
+                    <textarea name="query" id="query" placeholder="how can we help you" rows="4" ></textarea>
+                    <input style="padding: 0 2vw; background-color: red; color: whitesmoke; width: 40%; cursor: pointer; border-radius: 50px;" type="submit"name="" id="">
+                </form>
             </div>
         </div>
 </div>
